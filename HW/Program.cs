@@ -8,7 +8,8 @@
     GriffindorStudent grifStud = new GriffindorStudent();
     grifStud.BreakRules();
     Console.WriteLine(grifStud.Password);
-    Console.WriteLine(((Student)grifStud).Password);
+    Student student2 = (Student)grifStud;
+    Console.WriteLine(student2.Password);
 } 
 }
 
