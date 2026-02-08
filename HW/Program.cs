@@ -1,15 +1,14 @@
-﻿public class Program
+﻿using HW;
+
+public class Program
 {
     
 
  public static void Main()
 
 {
-Point point1 = new Point(1, 1);
-    Console.WriteLine(Point.Сounter);
-
-    Point point2 = new Point(2, 3);
-    Console.WriteLine(Point.Сounter);
+        var fibonachi = new FibonacciCounter();
+        fibonachi.Count(10);
 }
 
 
